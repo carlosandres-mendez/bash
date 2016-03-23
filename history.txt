@@ -410,39 +410,51 @@
   410  nano SpecVar.sh 
   411  nano case_InitScript.sh 
   412  exit
-  413  cd /media/
+  413  cd ../../../
   414  ls
-  415  cd sysadmin/
+  415  cd SALIDA_DATOS/
   416  ls
-  417  cd CC61-0B1B/
-  418  ls
-  419  cd test/
-  420  ls
-  421  ls -la
-  422* 
-  423  touch prueba.txt
-  424  git add prueba.txt 
-  425  cd ..
-  426  mkdir curso
-  427  cd curso/
-  428  git clone https://github.com/carlosandres-mendez/bash.git
-  429  ls
-  430  cd bash/
-  431  ls
-  432  git status
+  417  cd ..7
+  418  cd ../
+  419  rm SALIDA_DATOS/
+  420  rm -rf SALIDA_DATOS/
+  421  cd ../
+  422  ls
+  423  nano respaldar.sh 
+  424  nano IFS.sh 
+  425  df | awk ’{print $5}’
+  426  df | awk '{print $5}'
+  427  df | awk '{print $5}' | grep -v Usados
+  428  grep --help
+  429  cd ../../../
+  430  cd ../
+  431  cd..7
+  432  cd ../
   433  ls
-  434  nano t1.sh 
-  435  sudo nano t1.sh 
+  434  ls -la
+  435  cd bash/
   436  git status
-  437  git commit -m "prueba 1"
+  437  git add .
   438  git status
-  439  git add t1.sh 
+  439  git commit -m "Listo bloque de conversion de datos. Además, de los datos en csv se tienen organizaciones dentro de la carpeta hojasDatos"
   440  git status
-  441  git commit -m "Primera prueba de commit"
-  442  git status
-  443  git log
-  444  nano ../../test/t1.sh 
-  445  nano t1.sh 
-  446  git status
-  447  git push
-  448  history > history.txt
+  441  git push
+  442  git diff
+  443  git status
+  444  git logs
+  445  git log
+  446  cd ../../../
+  447  tree
+  448  cd hojasExcel/src/
+  449  sudo nano graficar.sh 
+  450  ls
+  451  bash graficar.sh 
+  452  cd ../../
+  453  tree
+  454  cd ../../
+  455  ls
+  456  cd bash/
+  457  ls
+  458  git push
+  459  ls
+  460  history > history.txt
