@@ -8,6 +8,7 @@ VAR1=123
 VAR2=queso
 
 echo "vamos a jugar $VAR1 - $VAR2"
+
 echo $1
 echo $2
 
