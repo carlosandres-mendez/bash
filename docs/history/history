@@ -1,0 +1,1000 @@
+  118  ls
+  119  sudo su -
+  120  sudo netstat -vantp
+  121  sudo su -
+  122  ls
+  123  cd Desktop/
+  124  ls
+  125  cd ../
+  126  cd Desktop/
+  127  ls
+  128  cd ../Downloads/
+  129  ls
+  130  impressive --no-logo LS2-Caso\ de\ Estudio.pdf 
+  131  impressive LS2-Caso\ de\ Estudio.pdf 
+  132  lsblk
+  133  parted -l
+  134  sudo parted -l
+  135  cd Desktop/
+  136  ls
+  137  cd ../
+  138  cd Downloads/
+  139  ls
+  140  impressive LS2-Caso\ de\ Estudio.pdf 
+  141  sudo su -
+  142  clear
+  143  sudo su -
+  144  ls
+  145  cd Downloads/
+  146  ls
+  147  impressive LVM\ -\ 00\ -\ Introducción\,\ terminología\ y\ componentes.pdf 
+  148  ssh sysadmin@192.168.122.92
+  149  ssh root@192.168.122.92
+  150  ssh sysadmin@192.168.122.92
+  151  htop
+  152  sudo iptables -L
+  153  sudo su -
+  154  iptables -L
+  155  sudo iptables -L
+  156  sudo su -
+  157  df -h
+  158  sudo su -
+  159  man man
+  160  df -h
+  161  cd /media/instructor/r4vsdrv/
+  162  ls
+  163  axel http://mirrors.ucr.ac.cr/ubuntu-cd/wily/ubuntu-15.10-desktop-amd64.iso
+  164  sudo apt-get install axel
+  165  axel http://mirrors.ucr.ac.cr/ubuntu-cd/wily/ubuntu-15.10-desktop-amd64.iso
+  166  wget http://mirrors.ucr.ac.cr/ubuntu-cd/wily/ubuntu-15.10-desktop-amd64.iso
+  167  fallocate 2G cosa.img
+  168  man fallocate
+  169  fallocate -l 2G cosa.img
+  170  ls -l
+  171  ls -lh
+  172  ls
+  173  ls /l
+  174  ls -l
+  175  clear
+  176  ls -l 
+  177  cd Downloads/
+  178  wget http://mirrors.ucr.ac.cr/ubuntu-cd/trusty/ubuntu-14.04.3-server-amd64.iso
+  179  test -e /var/lib
+  180  echo $?
+  181  test -e /etc/dhcpd/dhpc.conf
+  182  echo $?
+  183  clear
+  184  sudo su -
+  185  clear
+  186  hostname
+  187  sudo apt-get -y purge isc-dhcp-server
+  188  sudo su -
+  189  ssh 192.168.222.130
+  190  ssh sysadmin@192.168.222.130
+  191  cat .ssh/id_rsa
+  192  cat .ssh/id_rsa.pub 
+  193  ssh root@104.131.158.69
+  194  ls
+  195  cd Desktop/
+  196  ls
+  197  clear
+  198  ls
+  199  impressive --nologo DNS\ -\ 00\ -\ Introducción\ a\ terminología.pdf 
+  200  impressive --nologo DNS\ -\ 01\ -\ ¿Cómo\ funciona\ un\ DNS\?.pdf 
+  201  impressive --nologo DNS\ -\ 02\ -\ Tipos\ de\ Registro.pdf 
+  202  cat /etc/resolv.conf 
+  203  ls
+  204  cd Desktop/
+  205  ls
+  206  clear
+  207  mv firewall.sh firewall-001.sh
+  208  scp firewall-001.sh sysadmin@192.168.50.216:
+  209  scp firewall-001.sh sysadmin@192.168.50.216:/home/sysadmin/.
+  210  ssh sysadmin@192.168.50.216
+  211  scp sysadmin@192.168.50.216:
+  212  ssh sysadmin@192.168.50.216 "ls -l *.sh"
+  213  hostname
+  214  ssh sysadmin@192.168.50.216 "hostname"
+  215  scp firewall-001.sh sysadmin@192.168.50.216:/home/sysadmin/.
+  216  scp firewall-001.sh sysadmin@192.168.50.216:
+  217  ssh sysadmin@192.168.50.216 "ls -l *.sh"
+  218  ssh sysadmin@192.168.50.216 "hostname"
+  219  ssh-keygen -t rsa -b 2048
+  220  ssh-copy-id sysadmin@192.168.50.216
+  221  ssh sysadmin@192.168.50.216 "hostname"
+  222  ssh sysadmin@192.168.50.216 "ls -la /home/sysadmin/.ssh/*"
+  223  #ssh-copy-id sysadmin@192.168.50.216
+  224  ssh sysadmin@192.168.50.216 "ls -la /home/sysadmin/.ssh/*"
+  225  cd
+  226  whoami
+  227  hostname
+  228  ssh sysadmin@192.168.50.216
+  229  ping 192.168.50.216
+  230  ssh sysadmin@192.168.50.216
+  231  ssh sysadmin@192.168.122.119
+  232  ssh sysadmin@192.168.122.119
+  233  dig
+  234  dig @8.8.8.8
+  235  dig @8.8.8.8 www.ucr.ac.cr
+  236  dig @8.8.8.8 www.arold.co.cr
+  237  dig @8.8.8.8 www.ucr.ac.cr
+  238  dig @8.8.8.8 www.bac.net
+  239  dig @8.8.8.8 www.bac.net 
+  240  dig @8.8.8.8 www.bac.net +short
+  241  dig @8.8.8.8 www.bac.net +shor
+  242  dig @8.8.8.8 www.bac.net
+  243  dig @8.8.8.8 www.bac.net +short
+  244  dig @8.8.8.8 www.ucr.ac.cr +short
+  245  dig @8.8.8.8 correo.ucr.ac.cr +short
+  246  dig www.ucr.ac.cr +short
+  247  dig @163.178.88.2 correo.ucr.ac.cr +short
+  248  dig @163.178.88.2 correo.ucr.ac.cr
+  249  dig @8.8.. correo.ucr.ac.cr
+  250  dig @8.8.8.8 correo.ucr.ac.cr
+  251  dig @8.8.8.8 ucr.ac.cr NS
+  252  dig @8.8.8.8 bac.net 
+  253  dig @8.8.8.8 ns1.credomatic.com
+  254  dig @8.8.8.8 bac.net NS
+  255  dig @8.8.8.8 bac.net MX
+  256  dig @8.8.8.8 ns1.credomatic.com A
+  257  dig @8.8.8.8 fod.ac.cr A
+  258  dig @8.8.8.8 www.fod.ac.cr A
+  259  dig @8.8.8.8 tec.ac.cr A
+  260  dig @8.8.8.8 www.tec.ac.cr A
+  261  dig @8.8.8.8 tec.ac.cr A
+  262  dig @8.8.8.8 www.fod.ac.cr SOA
+  263  dig @8.8.8.8 www.ucr.ac.cr SOA
+  264  dig @8.8.8.8 www.fod.ac.cr A
+  265  dig @8.8.8.8 www.fod.ac.cr SOA
+  266  dig @8.8.8.8 www.fod.ac.cr NS
+  267  dig @8.8.8.8 www.fod.ac.cr MX
+  268  dig @8.8.8.8 www.google.com A
+  269  dig @8.8.8.8 gmail.google.com
+  270  dig @8.8.8.8 gmail.com
+  271  dig @8.8.8.8 gmail.com MX
+  272  dig @8.8.8.8 gmail.com
+  273  dig @8.8.8.8 www.fod.ac.cr MX
+  274  dig @8.8.8.8 tec.ac.cr MX
+  275  dig @8.8.8.8 microsoft.com MX
+  276  dig @8.8.8.8 microsoft.com A
+  277  dig @8.8.8.8 yahoo.com MX
+  278  dig @8.8.8.8 yahoo.com A
+  279  dig @8.8.8.8 www.google..com A
+  280  dig @8.8.8.8 www.google.com A
+  281  dig @8.8.8.8 www.google..com A
+  282  dig @8.8.8.8 www.google.com A > /dev/null 
+  283  dig @8.8.8.8 google.com MX > /dev/null 
+  284  dig @8.8.8.8 www.fod.ac.cr A > /dev/null 
+  285  dig @8.8.8.8 www.fod.ac.cr MX > /dev/null 
+  286  dig @8.8.8.8 www.fod.ac.cr AAAA > /dev/null 
+  287  #dig @8.8.8.8 www.fod.ac.cr AAAA > /dev/null 
+  288  #dig @8.8.8.8 www.fod.ac.cr AAAA
+  289  dig @8.8.8.8 www.fod.ac.cr AAAA
+  290  dig @8.8.8.8 www.google.com A
+  291  dig @8.8.8.8 -x 201.191.202.173
+  292  dig -x 201.191.202.173
+  293  dig @8.8.8.8 www.google.com A
+  294  dig @8.8.8.8 www.fod.ac.cr AAAA
+  295  dig @8.8.8.8 www.fod.ac.cr A
+  296  dig -x 186.177.98.5
+  297  dig @8.8.8.8 www.amazon.com A
+  298  dig -x 54.239.17.6
+  299  dig @8.8.8.8 www.ucr.ac.cr NS
+  300  dig @8.8.8.8 ucr.ac.cr NS
+  301  dig @8.8.8.8 www.ucr.ac.cr NS
+  302  dig @8.8.8.8 ucr.ac.cr NS
+  303  ls
+  304  htop
+  305  tree Documents/
+  306  apt-get install tree
+  307  sudo apt-get install tree
+  308  exit
+  309  ls
+  310  exit
+  311  ssh uk@163.178.110.4
+  312  ls
+  313  nohup apt-get update 
+  314  nohup sudo apt-get update 
+  315  ps aux | grep nohup
+  316  nohup sudo apt-get update 
+  317  htop
+  318  ssh uk@163.178.110.47
+  319  ssh uk@163.178.110.4
+  320  ssh uk@163.178.110.7
+  321  ls
+  322  ssh uk@163.178.110.4
+  323  exit
+  324  lsb_release -a
+  325  sudo su -
+  326  uname -a
+  327  cd Downloads/
+  328  ls
+  329  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  330  apt-cache search chrome
+  331  sudo apt-get install libappindicator1 
+  332  apt-cache search chrome
+  333  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  334  sudo apt-get -f install
+  335  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  336  google-chrome
+  337  ip -4 addr
+  338  google-chrome &
+  339  sudo apt-get install ttyrec
+  340  cd 
+  341  ls
+  342  ttyrec
+  343  ttyplay ttyrecord 
+  344  ttyplay ttyrecord LINUX - 000 - Variables de Interprete y Ambiente Archivo
+  345  VAR1=123
+  346  env | grep VAR
+  347  set | grep VAR
+  348  set | less
+  349  printenv | grep VAR
+  350  echo $VAR1
+  351  vim primerPrograma.sh
+  352  sh primerPrograma.sh 
+  353  vim primerPrograma.sh
+  354  ls
+  355  sh primerPrograma.sh 
+  356  echo $VAR1
+  357  export VAR1
+  358  echo $VAR1
+  359  sh primerPrograma.sh 
+  360  printenv | grep VAR
+  361  vim primerPrograma.sh
+  362  sh primerPrograma.sh 
+  363  echo $VAR1
+  364  vim primerPrograma.sh
+  365  sh primerPrograma.sh 
+  366  vim primerPrograma.sh
+  367  env PATH=$PATH:algunLugar sh primerPrograma.sh 
+  368  env PATH=algunLugar sh primerPrograma.sh 
+  369  env PATH=/bin:algunLugar sh primerPrograma.sh 
+  370  echo $PATH
+  371  cat  primerPrograma.sh
+  372  vim sdbjfgsf
+  373  ls
+  374  cat nohup.out 
+  375  ssh uk@pris.eie.ucr.ac.cr
+  376  echo $UID
+  377  id
+  378  dmesg | grep init
+  379  cat nohup.out 
+  380  echo "hola" > nohup.out 
+  381  cat nohup.out 
+  382  grep algo *
+  383  grep algo * 2> error.log
+  384  cat error.log 
+  385  kls
+  386  ls
+  387  echo algo >> nohup.out 
+  388  cat nohup.out
+  389  grep algo *
+  390  grep algo * 2> error.log
+  391  cat error.log 
+  392  grep algo * 2>> error.log
+  393  cat error.log 
+  394  grep algo * > error.log
+  395  cat error.log 
+  396  grep algo * &> error.log
+  397  vim error.log 
+  398  cat << EOF
+  399  hola
+  400  mundo
+  401  EOF
+  402  cat << EOF
+  403  #!/bin/bash
+  404  echo "Esta sesion es de $USER en el tarro $HOSTNAME"
+  405  echo Done
+  406  EOF
+  407  cat << EOF > script.mio
+  408  #!/bin/bash
+  409  echo "Esta sesion es de $USER en el tarro $HOSTNAME"
+  410  echo Done
+  411  EOF
+  412  cat script.mio 
+  413  sh script.mio 
+  414  ls -l
+  415  chmod 750 script.mio
+  416  ls -l
+  417  ./script.mio 
+  418  cat <> EOF
+  419  cat <> script.mio 
+  420  cat script.mio 
+  421  ./script.mio <> script.mio 
+  422  cat script.mio 
+  423  ./script.mio <> script.mio2 
+  424  cat script.mio
+  425  cat script.mio2 
+  426  ls
+  427  cd Documents/
+  428  ls
+  429  mkdir test
+  430  ls
+  431  cd test/
+  432  l;s
+  433  ls
+  434  mkdir prueba1
+  435  mkdir prueba2
+  436  mkdir prueba3
+  437  ls
+  438  rm -r *
+  439  ls
+  440  mkdir prueba[1,2,3]
+  441  ls -l
+  442  mkdir prueba[1 2 3]
+  443  ls -l
+  444  mkdir prueba[1-3]
+  445  ls -l
+  446  mkdir prueba{1-3}
+  447  ls -l
+  448  mkdir prueba{1,3}
+  449  ls -l
+  450  rm -r *
+  451  ls -l
+  452  mkdir prueba{1,3}
+  453  ls -l
+  454  mkdir prueba{1,2,3}
+  455  rm -r *
+  456  mkdir prueba{1,2,3}
+  457  ls -l
+  458  mkdir -p prueba{1,2,3}/test2/test{2,3,4}
+  459  tree
+  460  ls
+  461  echo "Este es un usuario $USER"
+  462  echo 'Este es un usuario $USER'
+  463  echo Este es un usuario \$USER
+  464  echo Este es $HOSTNAME un usuario \$USER
+  465  ps
+  466  ps -aux
+  467  ps -aux | less
+  468  pstree
+  469  pstree | less
+  470  tree
+  471  pstree | less
+  472  cd 
+  473  ls
+  474  ps aux  | grep lightdm 
+  475  kill -9 865
+  476  sudo kill -9 865
+  477  kill -9 865
+  478  sudo kill -9 865
+  479  google-chrome &
+  480  google-chrome
+  481  totem
+  482  ext
+  483  google-chrome &
+  484  ls
+  485  top
+  486  htop
+  487  vim holamundo.sh
+  488  ls
+  489  cd Documents/
+  490  ls
+  491  cd test/
+  492  ls
+  493  tree
+  494  job
+  495  jobs
+  496  fg
+  497  jobs
+  498  man fg
+  499  info fg
+  500  cd 
+  501  vim asdjkkfg
+  502  vim hola
+  503  jobs
+  504  fg 2
+  505  jobs
+  506  fg 3
+  507  ls
+  508  jobs
+  509  vim hola
+  510  jobs
+  511  htop
+  512  ls
+  513  ls -a
+  514  vim .bashrc 
+  515  echo $PATH
+  516  cat .bashrc 
+  517  source .bashrc 
+  518  echo $PATH
+  519  cd /etc/
+  520  ls
+  521  vim bash.bashrc 
+  522  cd 
+  523  ;s
+  524  ls
+  525  htop
+  526  top
+  527  free
+  528  free -h
+  529  uptime
+  530  top
+  531  uptime
+  532  exit
+  533  echo $PATH
+  534  htop
+  535  exit
+  536  w
+  537  ls
+  538  bash
+  539  htop
+  540  sh
+  541  echo $SHELL
+  542  ls
+  543  dmesg  | grep init
+  544  ls
+  545  vim .bashrc 
+  546  dmesg 
+  547  fg
+  548  micomando
+  549  vim .bashrc 
+  550  source .bashrc
+  551  micomando
+  552  dmesg | grep --color=auto init
+  553  vim .bashrc 
+  554  ls -l
+  555  ls -l -a
+  556  ls -la
+  557  apt-cache search vim
+  558  apt-cache search vim | grep gtk
+  559  sudo apt-get install vim-gtk
+  560  gvim
+  561  ls
+  562  mkdir tmp
+  563  cd t,
+  564  cd tmp/
+  565  ls
+  566  vim test1.sh
+  567  ls -l
+  568  bash test1.sh 
+  569  vim test1.sh
+  570  cat test1.sh 
+  571  cd ..
+  572  mkdir bin
+  573  ls
+  574  cd bin/
+  575  l;s
+  576  ls
+  577  touch algo1
+  578  ls
+  579  touch algo2
+  580  touch algo3
+  581  touch algo4
+  582  touch algo5
+  583  dmesg > algo3
+  584  htop
+  585  man sleep
+  586  sleep 2
+  587  htop
+  588  watch -n 1 "ps aux | tail"
+  589  watch -n 1 "ps aux | tail -n 20"
+  590  cd tmp/
+  591  ls
+  592  vim test1.sh 
+  593  cat test1.sh
+  594  ls
+  595  cd ..
+  596  ls
+  597  cd tmp/
+  598  cd ..
+  599  ls
+  600  cd tmp/`
+  601  cd tmp/
+  602  ls
+  603  ls -l
+  604  ls -lh
+  605  chmod +x test1.sh 
+  606  ls -lh
+  607  chmod 700 test1.sh 
+  608  ls -lh
+  609  ./test1.sh 
+  610  ls -la ../
+  611  ls -a ../
+  612  ls -la ../
+  613  ls -lah ../
+  614  ls -la ../
+  615  df -lh
+  616  df -l
+  617  df -l | grep sda
+  618  df -l | grep sda6
+  619  df -l | grep sda6 | cut -d " " -f2 
+  620  df -l | grep sda6 | cut -d " " -f1 
+  621  df -l | grep sda6 | cut -d " " -f3 
+  622  df -l | grep sda6 | cut -d " " -f4
+  623  df -l | grep sda6 | cut -d " " -f5
+  624  df -l | grep sda6 | cut -d " " -f6
+  625  df -l | grep sda6 | cut -d " " -f7
+  626  df -l | grep sda6 | cut -d " " -f8
+  627  df -lh | grep sda6 | cut -d " " -f8
+  628  ls
+  629  jobs
+  630  history 
+  631  cd /usr/share/doc
+  632  ls
+  633  cd vim-common/
+  634  ls
+  635  cd ..
+  636  ls
+  637  cd vim-common/
+  638  ls
+  639  pwd
+  640  cd /etc/apache2/sites-available/
+  641  cd 
+  642  ls
+  643  cd /etc/apache2/sites-available/
+  644  vf 
+  645  cd 
+  646  cd tmp/
+  647  ls
+  648  vim test1.sh 
+  649  ls /etc/init.d/
+  650  cd /etc/rc2.d/
+  651  ;s
+  652  ls
+  653  cd ../init.d/
+  654  ls
+  655  vim apache2 
+  656  cd 
+  657  cd tmp/
+  658  l;s
+  659  ls
+  660  vim test1.sh 
+  661  ./test1.sh 
+  662  vim test1.sh 
+  663  ./test1.sh 
+  664  vim test1.sh 
+  665  ./test1.sh 
+  666  vim test1.sh 
+  667  cat test1.sh 
+  668  ./test1.sh 
+  669  vim test1.sh .
+  670  ./test1.sh 
+  671  vim test1.sh .
+  672  vim test1.sh
+  673  ./test1.sh 
+  674  ls
+  675  wich ls
+  676  which ls
+  677  cp /bin/ls
+  678  cp /bin/ls .
+  679  ls
+  680  ls -l
+  681  file test1.sh 
+  682  file ls
+  683  ls -l
+  684  ls -lh
+  685  hexdump -C ls | less
+  686  ./ls 
+  687  ./ls -l
+  688  /bin/ls -l
+  689  cd 
+  690  cd /etc/apache2/sites-available/
+  691  ls
+  692  /home/instructor/tmp/ls -l
+  693  cd 
+  694  tmp/ls -l
+  695  cd Documents/
+  696  ls
+  697  ../tmp/ls -la
+  698  lcd 
+  699  cd 
+  700  ls
+  701  cd tmp/
+  702  ls
+  703  vim ls 
+  704  vim test1.sh 
+  705  ./test1.sh 
+  706  vim test1.sh 
+  707  ./test1.sh 
+  708  vim test1.sh 
+  709  ./test1.sh 
+  710  vim test1.sh 
+  711  ./test1.sh 
+  712  ./test1.sh s d f
+  713  ./test1.sh -s -d    -f
+  714  ./test1.sh -s -d   -f
+  715  ./test1.sh -s -d   -f gy
+  716  ls
+  717  ./test1.sh miarchivo
+  718  ls
+  719  ./test1.sh miarchivo
+  720  ls
+  721  dmesg > archivo1.txt
+  722  rm test1.sh.error 
+  723  ls
+  724  rm miarchivo.error 
+  725  ./test1.sh miarchivo
+  726  ls
+  727  ./test1.sh miarchivo
+  728  history 
+  729  ls
+  730  ls -la
+  731  ls -l -a -h
+  732  ls     -l -a -h
+  733  cd tmp/
+  734  ls
+  735  vim test1.sh 
+  736  ./test1.sh --a --e hola
+  737  vim test1.sh 
+  738  ./test1.sh --a --e hola
+  739  cat test1.sh 
+  740  ./test1.sh --a --e hola
+  741  ./test1.sh a e hola
+  742  ./test1.sh estaesmiprimeraVariable e hola
+  743  ls -alh
+  744  ls
+  745  mkdir algo/otro/este
+  746  mkdir -p algo{1,2}/otro/este
+  747  mkdir p algo{1,2}/otro/este
+  748  tree
+  749  cat test1.sh 
+  750  vim test1.sh
+  751  ls
+  752  history > history_20160310
+  753  ls
+  754  cd ..
+  755  ls
+  756  tar -czf clase_20160310.tar.gz tmp/
+  757  cp clase_20160310.tar.gz /media/instructor/uk/
+  758  set 
+  759  set | grep IFS
+  760  #git clone git@git.beta.ucr.ac.cr:EMMANUEL.VARGAS/scripts-nivel-2.gi 
+  761  cd Downloads/
+  762  ls
+  763  cd scripts-nivel-2-master-c498c837c70883b0e7e9b5b0bcbf125828ad88e4/
+  764  ls
+  765  cd src/
+  766  ls
+  767  git log
+  768  sudo apt-get install git
+  769  ls
+  770  cp algo.txt file.txt
+  771  echo $?
+  772  ls
+  773  echo $?
+  774  sudo apt-get install git
+  775  git log
+  776  ls
+  777  cd .
+  778  ls
+  779  cd 
+  780  cd /media/instructor/uk/
+  781  ls
+  782  cd LXS2/
+  783  ls
+  784  cd docs/
+  785  ls
+  786  cd src/
+  787  kls
+  788  ls
+  789  git status 
+  790  git log 
+  791  apt-cache search gitk
+  792  sudo apt-get install gitk
+  793  gitk
+  794  ls
+  795  gitk
+  796  cat IFS.sh 
+  797  ls
+  798  cat IFS.sh 
+  799  ls
+  800  cat SpecVar.sh 
+  801  ls
+  802  cat SpecVar.sh 
+  803  git log
+  804  apt-cache search gourse
+  805  apt-cache search gurse
+  806  apt-cache search surse
+  807  apt-cache search gource
+  808  sudo apt-get install gource
+  809  gource .
+  810  ls
+  811  cat SpecVar.sh 
+  812  ls
+  813  cd ..
+  814  ls
+  815  cd .
+  816  ls
+  817  exit
+  818  mkdir Clase
+  819  mv Clase/ Clase1_Bash
+  820  cd Clase1_Bash/
+  821  ls
+  822  git init 
+  823  ls -l
+  824  ls -la
+  825  vim IFS.sh
+  826  vim SpecVar.sh
+  827  ls
+  828  bash IFS.sh 
+  829  set | grep IFS | head
+  830  bash IFS.sh 
+  831  git status 
+  832  ls
+  833  vim .gitignore
+  834  git status 
+  835  cat .gitignore 
+  836  history 
+  837  rm .gitignore 
+  838  echo "*.swp" > .gitignore
+  839  git status 
+  840  git add IFS.sh 
+  841  git add .gitignore 
+  842  git status 
+  843  git commit -m "Inicio del repositorio"
+  844  git config --global user.email "emmanuel.vargas@ucr.ac.cr"
+  845  git config --global user.name "Emmanuel Vargas"
+  846  git status
+  847  git commit -m "Inicio del repositorio"
+  848  git log
+  849  history 
+  850  git log
+  851  bash IFS.sh 
+  852  env VAR2=123 VAR3=asd bash IFS.sh 
+  853  echo $VAR1
+  854  echo $VAR2
+  855  echo $VAR3
+  856  VAR2=234
+  857  VAR3=dfg
+  858  bash IFS.sh
+  859  set | grep VAR
+  860  printenv | grep VAR
+  861  export VAR2
+  862  export VAR3
+  863  export VAR2 VAR3
+  864  set | grep VAR
+  865  printenv | grep VAR
+  866  bash IFS.sh
+  867  htop
+  868  git status 
+  869  git diff
+  870  git status 
+  871  git add IFS.sh 
+  872  git status 
+  873  git commit -m "Ejemplo de paso de variables al sistema"
+  874  git log
+  875  cat IFS.sh 
+  876  man ls 
+  877  man cp
+  878  ls
+  879  ls -l
+  880  git status
+  881  ls
+  882  bash SpecVar.sh 
+  883  bash SpecVar.sh casa
+  884  bash SpecVar.sh casa perro arbol 3
+  885  bash SpecVar.sh casa perro arbol
+  886  echo
+  887  git status
+  888  git add SpecVar.sh 
+  889  git status 
+  890  ls -l
+  891  git add SpecVar.sh 
+  892  ls -l
+  893  git status 
+  894  sudo update-alternatives --config editor 
+  895  sudo apt-get install vim-nox
+  896  sudo update-alternatives --config editor 
+  897  git commit 
+  898  git status 
+  899  git commit
+  900  git log
+  901  history 
+  902  bash SpecVar.sh 
+  903  bash SpecVar.sh casa perro arbol
+  904  history > historial_20160317_1810
+  905  less historial_20160317_1810
+  906  ld
+  907  ls
+  908  cd 
+  909  cat 
+  910  echi
+  911  pwd
+  912  less .bash_history 
+  913  exit
+  914  ls
+  915  bash case_ejm1.sh ubuntu
+  916  chmod 750 case_ejm1.sh 
+  917  ls -l
+  918  ./case_ejm1.sh 
+  919  ./case_ejm1.sh asd
+  920  ./case_ejm1.sh ubuntu
+  921  ./case_ejm1.sh uBUNTU
+  922  mount
+  923  ./case_ejm1.sh uBUNTU
+  924  shopt 
+  925  ./case_ejm1.sh uBUNTU
+  926  history 
+  927  ./case_ejm1.sh fgh dfgh fgh dfgh fjh 
+  928  df -l
+  929  df
+  930  df | awk '{print $5}'
+  931  df | awk '{print $5}' | grep Use
+  932  df | awk '{print $5}' | grep -v Use
+  933  df | awk '{print $5}' | grep -v Use | sort 
+  934  df | awk '{print $5}' | grep -v Use | sort -n
+  935  df | awk '{print $5}' | grep -v Use | sort -n | tail
+  936  df | awk '{print $5}' | grep -v Use | sort -n | head
+  937  df | awk '{print $5}' | grep -v Use | sort -n | tail -1
+  938  df | awk '{print $5}' | grep -v Use | sort -n | tail -2
+  939  df | awk '{print $5}' | grep -v Use | sort -n | tail -5
+  940  df | awk '{print $5}' | grep -v Use | sort -n | tail -1
+  941  df | awk '{print $5}' | grep -v Use | sort -n | tail -1 | cut -d "%" -f1
+  942  df | awk '{print $5}' | grep -v Use | sort -n | tail -1 | cut -d "%" --field=1
+  943  df | awk '{print $5}' | grep -v Use | sort -n | tail -1 | cut -d "%" -f "1"
+  944  dmesg | grep init 
+  945  dmesg | grep -v init 
+  946  df | awk '{print $5}' | grep -v Use | sort -n | tail -1 | cut -d "%" -f "1"
+  947  df -lh
+  948  ls
+  949  bash caseExm2.sh 
+  950  mail 
+  951  sudo apt-get install mailutils
+  952  mail 
+  953  bash caseExm2.sh 
+  954  cat /var/spool/mail/instructor 
+  955  date
+  956  bash caseExm2.sh 
+  957  less /var/log/mail.log 
+  958  sudo su -
+  959  bash caseExm2.sh 
+  960  less /var/log/mail.log 
+  961  sudo dpkg-reconfigure exim4
+  962  sudo dpkg-reconfigure exim4-config 
+  963  bash caseExm2.sh 
+  964  less /var/log/mail.log 
+  965  ls
+  966  bash caseExm2.sh 
+  967  ls /etc/exim4/
+  968  sudo update-exim4.conf
+  969  bash caseExm2.sh 
+  970  cat /var/log/mail.log 
+  971  history 
+  972  cat /etc/exim4/update-exim4.conf.conf 
+  973  sudo update-exim4.conf
+  974  bash caseExm2.sh 
+  975  cat /var/mail/instructor 
+  976  cd /media/instructor/
+  977  ls
+  978  cd uk/
+  979  ls
+  980  cd LXS2/
+  981  ls
+  982  cd docs/
+  983  ls
+  984  cd 
+  985  ls
+  986  cd -
+  987  ls
+  988  cd src/
+  989  ls
+  990  cat caseExm1.sh 
+  991  ls
+  992  ls -l
+  993  cat caseExm2.sh 
+  994  ls
+  995  ls -l
+  996  cat caseExm2.sh 
+  997  mail
+  998  ls
+  999  vim caseExm2.sh 
+ 1000  ls
+ 1001  vim case_InitScript.sh 
+ 1002  cd /media/
+ 1003  ls
+ 1004  cd instructor/
+ 1005  ls
+ 1006  cd uk/
+ 1007  ls
+ 1008  cd LXS2/
+ 1009  ls
+ 1010  cd docs/
+ 1011  ls
+ 1012  cd src/
+ 1013  ls
+ 1014  git status 
+ 1015  git add case_InitScript.sh 
+ 1016  git commit -m "Init script"
+ 1017  cd ..
+ 1018  ls
+ 1019  cd ..
+ 1020  ls
+ 1021  mkdirt tmp
+ 1022  mkdir tmp
+ 1023  ls
+ 1024  mv docs.tar.gz tmp/
+ 1025  ls
+ 1026  cd tmp/
+ 1027  ls
+ 1028  cp docs.tar.gz ~/Downloads/
+ 1029  ls
+ 1030  cd 
+ 1031  ls
+ 1032  pwd
+ 1033  cd Downloads/
+ 1034  ls
+ 1035  ls docs.tar.gz 
+ 1036  tar -xzf docs.tar.gz 
+ 1037  ls -ld docs*
+ 1038  mkdir tno
+ 1039  ls
+ 1040  cp docs.tar.gz tno/
+ 1041  cd tno/
+ 1042  ls
+ 1043  scp docs.tar.gz uk@lolo.emate.ucr.ac.cr:
+ 1044  scp uk@lolo.emate.ucr.ac.cr:docs.tar.gz ~
+ 1045  cd 
+ 1046  ls
+ 1047  history 
+ 1048  cd Desktop/
+ 1049  ls
+ 1050  cd 
+ 1051  cd Downloads/
+ 1052  ls
+ 1053  cd docs/
+ 1054  ls
+ 1055  tree
+ 1056  ls 
+ 1057  mkdir emma
+ 1058  cd emma/
+ 1059  kls
+ 1060  ls
+ 1061  ls -la
+ 1062  ls
+ 1063  vim ../src/SpecVar.sh 
+ 1064  ls
+ 1065  vim case_ejm1.sh
+ 1066  git status 
+ 1067  cd ..
+ 1068  ls
+ 1069  git status 
+ 1070  git add emma/case_ejm1.sh 
+ 1071  git status 
+ 1072  git commit -m "Ejemplo case 1"
+ 1073  git log
+ 1074  ls
+ 1075  cd emma/
+ 1076  ls
+ 1077  history 
+ 1078  less 
+ 1079  less ~/.gitconfig
+ 1080  git log
+ 1081  ls
+ 1082  vim caseExm2.sh
+ 1083  git status 
+ 1084  git add caseExm2.sh 
+ 1085  git status 
+ 1086  git commit -m "Ejemplo dos de correo electronico y case"
+ 1087  gitk
+ 1088  cd /media/
+ 1089  cd instructor/uk/
+ 1090  l;s
+ 1091  ls
+ 1092  cd LXS2/
+ 1093  ls
+ 1094  cd docs/
+ 1095  ls
+ 1096  git remote -v
+ 1097  git remote add origin https://github.com/emvarg/LX2_main_repo.git
+ 1098  git remote -v
+ 1099  git remote add github  https://github.com/emvarg/LX2_main_repo.git
+ 1100  git remote -v
+ 1101  git push -u github  master
+ 1102  git remote -v
+ 1103  git remote add mi_repo https://github.com/emvarg/repo1-Nivel2Linux.git
+ 1104  git remote -v
+ 1105  git push -u mi_repo  master
+ 1106  git remote -v
+ 1107  git remote --help
+ 1108  git remote remove mi_repo
+ 1109  git remote -v
+ 1110  git branch 
+ 1111  ls
+ 1112  mkdir history
+ 1113  ls
+ 1114  tree
+ 1115  cd history/
+ 1116  ls
+ 1117  history > history
