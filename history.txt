@@ -1,0 +1,448 @@
+    1  sudo apt update && sudo apt ugrade -y
+    2  sudo apt update && sudo apt upgrade -y
+    3  uname -a
+    4  apt install qemu qemu-kvm libvirt-bin virt-manager -y
+    5  sudo apt install qemu qemu-kvm libvirt-bin virt-manager -y
+    6  sudo -s
+    7  sysdamin
+    8  user sysadmin
+    9  cat /proc/cpuinfo
+   10  top
+   11  clear
+   12  cd descargas/
+   13  cd descargas /
+   14  cd /descargas
+   15  ls
+   16  cd
+   17  pwd
+   18  cd /home
+   19  mdsum
+   20  md5sum
+   21  cd ..
+   22  sudo cp -v descargas /*.iso IMAGEs /.
+   23  pwd
+   24  clear
+   25  sudo -s
+   26  sudo cp -v descargas /*.iso IMAGEs /.
+   27  pwd
+   28  exit
+   29  sudo cp -v Descargas/*.iso IMAGEs/.
+   30  ls
+   31  pwd
+   32  sudo cp -v Descargas/*.iso IMAGEs/.
+   33  sudo -s
+   34  ls
+   35  sudo cp -v Descargas/*.iso IMAGEs/.
+   36  ls Descargas/
+   37  ls
+   38  ls Descargas/
+   39  sudo cp -v descargas /*.iso IMAGEs /.
+   40  sudo cp -v Descargas/*.iso IMAGEs /.
+   41  sudo cp -v Descargas/*.iso IMAGEs/.
+   42  sudo -s
+   43  cd /etc/default/
+   44  nano grub
+   45  grep -i default grub
+   46  update-grub
+   47  reboot
+   48  sudo apt update && upgrade
+   49  uname -a
+   50  clear
+   51  uname -a
+   52  sudo -s
+   53  cd $HOME/Descargas
+   54  sudo apt-get install epoptes-client
+   55  chmod +x *.sh
+   56  ls
+   57  chmod +x *.sh
+   58  sudo ./epoptes-sysnc.sh
+   59  ping -c 3 server
+   60  sudo ./epoptes-sync.sh
+   61  ping -c 3 server
+   62  cd ..
+   63  lsblk
+   64  clear
+   65  top
+   66  clear
+   67  apt-get install htop
+   68  httop
+   69  top
+   70  clear
+   71  htop
+   72  lvs
+   73  ssh sysadmin
+   74  ssh sysadmin@192.168.122.96
+   75  root
+   76  sudo -a
+   77  clear
+   78  test -e /var/lib/dhcp/dhcpd.leases
+   79  hostname
+   80  sudo apt-get -y purge isc-dhcp-server
+   81  ssh sysadmin@192.168.50.222
+   82  sudo -s
+   83  ssh sysadmin@192.168.50.222
+   84  www.arold.co.cr
+   85  clear
+   86  dig
+   87  dig8.8.8.8
+   88  dig @8.8.8.8
+   89  dig @8.8.8.8 www.ucr.ac.cr
+   90  dig @8.8.8.8 www.clubcariari.com
+   91  dig @8.8.8.8 www.bac.net
+   92  dig @8.8.8.8 www.bac.net +short
+   93  dig @8.8.8.8 www.clubcariari.com +short
+   94  dig @8.8.8.8 www.ucr.ac.cr
+   95  dig @8.8.8.8 www.ucr.ac.cr NS
+   96  dig @8.8.8.8 www.bac.net NS
+   97  dig @8.8.8.8 ns1.credomatic.com NS
+   98  dig @8.8.8.8 ns1.credomatic.com MX
+   99  dig @8.8.8.8 WWW.credomatic.com MX
+  100  dig @8.8.8.8 tec.ac.cr A
+  101  dig @8.8.8.8 tec.ac.cr MX
+  102  dig @8.8.8.8 www.google.com
+  103  dig @8.8.8.8 www.microsoft.com
+  104  dig @8.8.8.8 www.microsoft.com A
+  105  dig @8.8.8.8 www.microsoft.com +SHORT
+  106  dig @8.8.8.8 www.google.com A
+  107  dig @8.8.8.8 www.microsoft.com A
+  108  exit
+  109  w
+  110  htop
+  111  bash
+  112  htop
+  113  echo $SHELL
+  114  htop
+  115  vim bashrc
+  116  nano bashrc
+  117  nano .bashrc
+  118  vim 
+  119  sudo apt-get install vim
+  120  vim .bashrc
+  121  bash --version
+  122  nano .bashrc
+  123  source .bashrc
+  124  andres
+  125  pwd
+  126  mkdir test
+  127  cd test/
+  128  touch t1.sh
+  129  nano t1.sh 
+  130  bash t1.sh 
+  131  nano t1.sh 
+  132  bash t1.sh 
+  133  ./t1.sh 
+  134  ls -l
+  135  chmod 755 t1.sh 
+  136  ./t1.sh 
+  137  watch -n 1 ls -l
+  138  nano t1.sh 
+  139  ./t1.sh 
+  140  nano t1.sh 
+  141  ./t1.sh 
+  142  nano t1.sh 
+  143  ./t1.sh 
+  144  nano t1.sh 
+  145  ./t1.sh 
+  146  nano t1.sh 
+  147  watch -n 1 "ls -l $HOME" 
+  148  watch -n 1 "ls -l $HOME" &
+  149  ps 
+  150  ps -l
+  151  fg 24518
+  152  bg 24518
+  153  jobs
+  154  fb 1
+  155  fg 1
+  156  echo $PATH
+  157  which ls
+  158  ls
+  159  nano t1.sh 
+  160  ./t1.sh hola andres
+  161  nano t1.sh 
+  162  jobs
+  163  ps -l
+  164  nano t1.sh 
+  165  ./t1.sh hola andres &
+  166  ./t1.sh & hola andres &
+  167  ./t1.sh &
+  168  ps -l
+  169  pkill 24701
+  170  ps -l
+  171  jobs
+  172  killall t1.sh
+  173  jobs
+  174  ps -l
+  175  kill -9 24701
+  176  ps -l
+  177  exit
+  178  htop
+  179  exit
+  180  pwd
+  181  ls
+  182  yum > test.txt &
+  183  jobs
+  184  sudo apt-get install git
+  185  sudo apt-get update
+  186  ls
+  187  cd test
+  188  ls
+  189  sudo nano t1.sh 
+  190  ./t1.sh 
+  191  sudo nano t1.sh &
+  192  sudo ./t1.sh &
+  193  ./t1.sh &
+  194  jobs
+  195  ps
+  196  ps -l
+  197  sudo kill -9 5369
+  198  sudo kill -9 5370
+  199  ps -l
+  200  fb 5384
+  201  fg 5384
+  202  ls
+  203  git
+  204  git init
+  205  ls -la
+  206  touch IFS.sh
+  207  nano IFS.sh 
+  208  sudo chmod 0775 IFS.sh 
+  209  ./IFS.sh 
+  210  sudo chmod 0775 IFS.sh 
+  211  nano IFS.sh 
+  212  ./IFS.sh 
+  213  nano IFS.sh 
+  214  git status
+  215  git add IFS.sh 
+  216  git status
+  217  git commit -m "Inicio del repositorio"
+  218  git config --global user.email "carlosandresucr@gmail.com"
+  219  git config --global user.name "Carlos Andrés Méndez"
+  220  git commit -m "Inicio del repositorio"
+  221  git log
+  222  ls
+  223  nano IFS.sh 
+  224  git commit -m "El primer cambio de prueba"
+  225  nano IFS.sh 
+  226  git log
+  227  nano IFS.sh 
+  228  env VAR2=123 VAR=asd bash IFS.sh
+  229  env VAR2=123 VAR3=asd bash IFS.sh
+  230  set
+  231  set | grep VAR
+  232  VAR1=123
+  233  set | grep VAR
+  234  git status
+  235  git add IFS.sh 
+  236  git commit -m "Primer commit"
+  237  ls
+  238  git status
+  239  git log
+  240  mkdir test2
+  241  cd test2/
+  242  touch index.html
+  243  nano index.html 
+  244  cd ..
+  245  git status
+  246  git add t1.sh 
+  247  git test2/
+  248  git test2
+  249  git add test2
+  250  git status
+  251  git diff 
+  252  cd test2/
+  253  nano index.html 
+  254  cd ..
+  255  git diff
+  256  git commit -m "Se agrega el www"
+  257  git log
+  258  touch script.sh
+  259  nano script.sh 
+  260  git status
+  261  git add script.sh 
+  262  bash script.sh 
+  263  nano script.sh 
+  264  bash script.sh 
+  265  nano script.sh 
+  266  bash script.sh 
+  267  nano script.sh 
+  268  bash script.sh 
+  269  bash script.sh 1 2 3
+  270  nano script.sh 
+  271  bash script.sh 1 2 3
+  272  sudo update-alternatives --config editor
+  273  sudo apt-get install vim-nox
+  274  sudo update-alternatives --config editor
+  275  git status
+  276  cd test2/
+  277  touch functions.sh
+  278  cd ..
+  279  git status
+  280  ls
+  281  cd test2/
+  282  ls
+  283  cd ..
+  284  git add script.sh 
+  285  git status
+  286  git commit -m "2016 03 15"
+  287  git log
+  288  ls
+  289  cd ..
+  290  pwd
+  291  ls
+  292  sudo cp -R test /media/sysadmin/CC61-0B1B/
+  293  cd /media/sysadmin/CC61-0B1B/
+  294  ls
+  295  sudo chmod -R 0777 test
+  296  ls -l
+  297  exit
+  298  htop
+  299  pwd
+  300  cd /media/
+  301  ls
+  302  cd sysadmin/
+  303  ls
+  304  cd CC61-0B1B/
+  305  ls
+  306  cd test/
+  307  ls
+  308  cd test2/
+  309  ls
+  310  cd ..
+  311  ls
+  312  touch case_ej1.sh
+  313  nano case_ej1.sh 
+  314  chmod 0775 case_ej1.sh 
+  315  chmod 0777 case_ej1.sh 
+  316  ls -ls
+  317  chmod 0777 case_ej1.sh 
+  318  ls -ls
+  319  sudo bash case_ej1.sh 
+  320  sudo bash case_ej1.sh ubuntu
+  321  ls
+  322  git status
+  323  git add case_ej1.sh 
+  324  git add test2/functions.sh 
+  325  git status
+  326  git diff
+  327  ls -la
+  328  cd .git/
+  329  ls -la
+  330  cd ..
+  331  ls
+  332  git commit -m "lab de case ejemplo 1"
+  333  git log
+  334  ls
+  335  touch case_ej2.sh
+  336  nano case_ej2.sh 
+  337  df | awk ’{print $5}’ | grep -v Use | sort -n | tail -1 | cut -d “%” --f “1”
+  338  df | awk '{print $5}' | grep -v Use | sort -n | tail -1 | cut -d "%" --f "1"
+  339  nano case_ej2.sh 
+  340  df | awk '{print $5}' | grep -v Use | sort -n | tail -1 | cut -d "%" --f "1"
+  341  nano case_ej2.sh 
+  342  bash case_ej2.sh 
+  343  nano case_ej2.sh 
+  344  bash case_ej2.sh 
+  345  nano case_ej2.sh 
+  346  bash case_ej2.sh 
+  347  nano case_ej2.sh 
+  348  mv /home/sysadmin/Descargas/Anonymous.txt .
+  349  ls
+  350  mv Anonymous.txt respaldar.sh
+  351  nano case_ej2.sh 
+  352  bash case_ej2.sh 
+  353  nano case_ej2.sh 
+  354  which postfix
+  355  apt-get install mailutils
+  356  sudo apt-get install mailutils
+  357  nano case_ej2.sh 
+  358  bash case_ej2.sh 
+  359  nano /var/spool/mail/sysadmin 
+  360  nano case_ej2.sh 
+  361  bash case_ej2.sh 
+  362  sudo apt-get install exim4
+  363  sudo nano /etc/exim4/
+  364  cd /etc/exim4/
+  365  ls
+  366  cp exim4.conf.template exim4.conf
+  367  sudo cp exim4.conf.template exim4.conf
+  368  sudo nano exim4.conf
+  369  sudo rm exim4.conf
+  370  ls
+  371  dpkg-reconfigure exim4 
+  372  sudo dpkg-reconfigure exim4 
+  373  sudo dpkg-reconfigure exim4-config 
+  374  ls
+  375  bash /media/sysadmin/CC61-0B1B/test/case_ej2.sh 
+  376  ls
+  377  sudo update-exim4.conf
+  378  bash /media/sysadmin/CC61-0B1B/test/case_ej2.sh 
+  379  nano /media/sysadmin/CC61-0B1B/test/case_ej2.sh 
+  380  bash /media/sysadmin/CC61-0B1B/test/case_ej2.sh 
+  381  exit
+  382  pwd
+  383  ls
+  384  cd Descargas/
+  385  ls
+  386  unzip Árbol\ de\ git\ mas\ historys..\ _eom_.zip 
+  387  ls
+  388  mkdir docs
+  389  mv docs.tar.gz docs
+  390  cd docs/
+  391  ls
+  392  tar -zxvf docs.tar.gz .
+  393  tar -zxvf docs.tar.gz
+  394  ls
+  395  cd docs/
+  396  ls
+  397  cd src/
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd docs/
+  402  ls
+  403  cd src/
+  404  ls
+  405  tree
+  406  sudo apt-get install tree
+  407  ls
+  408  tree
+  409  nano IFS.sh 
+  410  nano SpecVar.sh 
+  411  nano case_InitScript.sh 
+  412  exit
+  413  cd /media/
+  414  ls
+  415  cd sysadmin/
+  416  ls
+  417  cd CC61-0B1B/
+  418  ls
+  419  cd test/
+  420  ls
+  421  ls -la
+  422* 
+  423  touch prueba.txt
+  424  git add prueba.txt 
+  425  cd ..
+  426  mkdir curso
+  427  cd curso/
+  428  git clone https://github.com/carlosandres-mendez/bash.git
+  429  ls
+  430  cd bash/
+  431  ls
+  432  git status
+  433  ls
+  434  nano t1.sh 
+  435  sudo nano t1.sh 
+  436  git status
+  437  git commit -m "prueba 1"
+  438  git status
+  439  git add t1.sh 
+  440  git status
+  441  git commit -m "Primera prueba de commit"
+  442  git status
+  443  git log
+  444  nano ../../test/t1.sh 
+  445  nano t1.sh 
+  446  git status
+  447  git push
+  448  history > history.txt
