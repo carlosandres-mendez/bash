@@ -2,7 +2,7 @@
 
 # Script para probar el tamaño en el disco duro
 
-espacio=`df -h | awk '{print $5}'  | grep -v Use | sort -n | tail -1 | cut -d "%" -f1 -`
+espacio=`df -h | awk '{print $5}'  | grep -v Uso | sort -n | tail -1 | cut -d "%" -f1 -`
 
 echo $espacio
 
