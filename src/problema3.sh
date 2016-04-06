@@ -1,6 +1,12 @@
 #!/bin/bash
 
 #Proyecto 3
+#El ejercicio 3 contiene el famoso archivo de Datos de la seccion 3, grafica algunas variables del indice de radiacion solar 
+#
+#REQUIERE el arhivo de Datos en el directorio ../problema3/
+
+# Carlos Andres Mendez Rodriguez
+# carlosandresucr@gmail.com
 
 DATOS="../problema3/Datos"
 
@@ -11,28 +17,24 @@ mkdir ../problema3/datos_csv
 echo "Procesando archivo Datos"
 #: <<'END'
 
+# Se filtran las columnas de datos interesadas del archivo Datos. 
 cat $DATOS | awk -F "," '{print $1 " " $4 " " $5 " " $9 " " $11 " " $12 " " $13 " " $14 " " $15 " " $16}' | tr -d '"' >> $SALIDA_DATOS
-#echo "$LUZ $AGUA" >> $SALIDA_DATOS/datos.out
-#| tail -n 2400
 
 
-#cat $SALIDA_DATOS/datos.out 
-
-#
-
-#FMT_BEGIN="20110205 0000"
-#FMT_END="20110209 0200"
 FMT_X_SHOW="%d" # Mostrar solo el dia en la fecha del eje x
 
+#grafica las variables de interes utilizando la libreria gnuplot.
+#En el eje x se pone los dias y en el eje y los valores de las variables
+#El grafico es una imagen que se genera y se almacena en el directorio que ejecute este script.
 graficar()
 {
-	gnuplot << EOF 2> error1.log
+	gnuplot << EOF 2> error1.log #inicia el comando para graficar y especificar el archivo de error
 	set xdata time
 	set timefmt "%Y-%m-%d"
 	#set xrange ["$FMT_BEGIN" : "$FMT_END"]
-	set autoscale
+	set autoscale # genera automaticamente los rangos
 	set format x "$FMT_X_SHOW"
-	set terminal png
+	set terminal png # espefica el formato de la imagen
 
 	set xlabel "Fecha"
 	set ylabel "Indice de radiacion solar"

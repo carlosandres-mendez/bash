@@ -1,6 +1,12 @@
 #!/bin/bash
 
 #Proyecto 2
+#El ejercicio 2 grafica los recibos de luz y agua.  
+#
+#REQUIERE arhivos .xls con datos en el directorio ../problema2/
+
+# Carlos Andres Mendez Rodriguez
+# carlosandresucr@gmail.com
 
 DATOS=../problema2
 
@@ -34,21 +40,19 @@ done 2>error1.log
 #: <<'END'
 #cat $SALIDA_DATOS/datos.out 
 
-#
 
-#FMT_BEGIN="20110205 0000"
-#FMT_END="20110209 0200"
-#FMT_X_SHOW="%d/%H"
-
+#grafica las variables de interes utilizando la libreria gnuplot.
+#En el eje x se pone los meses que corresponde y en el eje y el monto del recibo
+#El grafico es una imagen que se genera y se almacena en el directorio que ejecute este script.
 graficar()
 {
-	gnuplot << EOF 2> error1.log
+	gnuplot << EOF 2> error1.log  #inicia el comando para graficar y especificar el archivo de error
 	#set xdata time
 	#set timefmt "%Y%m%d %H%M"
 	#set xrange ["$FMT_BEGIN" : "$FMT_END"]
-	set autoscale
+	set autoscale # genera automaticamente los rangos
 	#set format x "$FMT_X_SHOW"
-	set terminal png
+	set terminal png # espefica el formato de la imagen
 
 	set xlabel "Mes"
 	set ylabel "Colones"
