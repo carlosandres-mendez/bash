@@ -19,18 +19,22 @@ done 2>error1.log
 
 
 
-echo '' > $SALIDA_DATOS/datos.out
+echo "" > $SALIDA_DATOS/datos.out
 
 for archivo in `find $SALIDA_DATOS -name "*.csv"`
 do
 	echo "Procesando archivo csv $archivo"
-	cat $archivo | grep 'Luz' | awk -F "\",\"" '{print $2 }' >> $SALIDA_DATOS/datos.out
-
+	#cat $archivo | grep 'Luz' | awk -F "\",\"" '{print $2 }' >> $SALIDA_DATOS/datos.out
+	#cat $archivo | grep 'Luz' | awk -F "\",\"" '{print $2 }' >> $SALIDA_DATOS/datos.out
+	LUZ=$( cat $archivo | grep 'Luz' | awk -F "\",\"" '{print $2 }' )
+	AGUA=$( cat $archivo | grep 'Agua' | awk -F "\",\"" '{print $2 }' )
+	echo "$LUZ $AGUA" >> $SALIDA_DATOS/datos.out
 done 2>error1.log
 
-cat $SALIDA_DATOS/datos.out 
-
 #: <<'END'
+#cat $SALIDA_DATOS/datos.out 
+
+#
 
 #FMT_BEGIN="20110205 0000"
 #FMT_END="20110209 0200"
@@ -45,7 +49,14 @@ graficar()
 	set autoscale
 	#set format x "$FMT_X_SHOW"
 	set terminal png
-	set output '/var/www/ciem/fig2.png'
+
+	set xlabel "Mes"
+	set ylabel "Colones"
+	set output 'fig-agua.png'
+	plot "$SALIDA_DATOS/datos.out" using 2 with lines title "Agua"
+
+	set output 'fig-luz.png'
+	set xrange ["1" : "3"] # Muestra el consumo electrico en los 3 primeros meses
 	plot "$SALIDA_DATOS/datos.out" using 1 with lines title "Luz"
 EOF
 }
